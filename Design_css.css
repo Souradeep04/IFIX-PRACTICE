@@ -1,0 +1,105 @@
+#first_label{
+    font-size: small;
+    color: darkgrey;
+}
+#selectbox0{
+    width: 150px;
+    background-color: white;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    text-align: left;
+}
+#second_level{
+    font-size: medium;
+}
+#selectbox1{
+    width: 700px;
+}
+#table{
+    width: 550px;
+    background-color: rgb(13, 178, 207);
+}
+#table_div{
+    height: 250px;
+    background-color: rgb(64, 117, 131);
+    width: 550px;
+}
+#col1{
+    width:250px;
+}
+#col2{
+    margin-left: 350px;
+}
+#create_btn{
+    width:100%;
+}
+#reset_btn{
+    width:100%;
+}
+#attach_ci{
+    margin-left: 350px;
+}
+.required:after{
+    content:" *";
+    color: red;
+}
+#smallD{
+    color: red;
+}
+#bigD{
+    color: red;
+}
+#attachclip
+{
+    font-size:18px;
+    float: right;
+    color: red;
+}
+.tab-content{
+    width:410px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+@media only screen and (max-width: 600px){
+    #create_btn{
+        width: 700px;
+    }
+    #reset_btn{
+        width: 700px;
+    }
+    #header{
+        width: 700px;
+    }
+    #footer{
+        width: 700px;
+    }
+    #attach_ci{
+        margin-left: 0px;
+    }
+    #ex-content{
+        width: 700px;
+        height: 150px;
+        overflow-y: scroll;
+    }
+    #table_div{
+        width: 700px;
+    }
+    #table{
+        width: 700px;
+    }
+    /* .scroll{
+        overflow: visible;
+        overflow-y: scroll;
+    } */
+    #smallD{
+        color: red;
+    }
+    #bigD{
+        color: red;
+    }
+}
